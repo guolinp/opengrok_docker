@@ -11,6 +11,8 @@ while [ "`curl --silent --write-out '%{response_code}' -o /dev/null 'http://loca
 done
 date +"%F %T Startup finished"
 
+# Hack
+/scripts/hack.sh
 
 # Loop and Index if need
 while true;
