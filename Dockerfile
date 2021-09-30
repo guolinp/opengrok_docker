@@ -24,7 +24,7 @@ ENV PATH /opengrok/bin:$PATH
 ENV CATALINA_BASE /usr/local/tomcat
 ENV CATALINA_HOME /usr/local/tomcat
 ENV CATALINA_TMPDIR /usr/local/tomcat/temp
-ENV JRE_HOME /usr
+ENV JRE_HOME /usr/local/openjdk-8
 ENV CLASSPATH /usr/local/tomcat/bin/bootstrap.jar:/usr/local/tomcat/bin/tomcat-juli.jar
 
 
